@@ -3,4 +3,9 @@ body {
 }
 a{
     padding: 10px;
+    font-size: 1.4em;
+    color: black;
+}
+img {
+    width: 500px
 }
