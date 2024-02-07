@@ -21,7 +21,11 @@ main {
 }
 img {
     width: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
 }
+
 a{
     color: black;
 }
@@ -32,14 +36,23 @@ nav a:hover {
 #main_title{
     font-size: 4em;
     text-align: center;
-    font-family: Sixtyfour; 
+    font-family: Sixtyfour, sans-serif, Helvetica; 
 }
-img{
-    display: block;
-    margin: 0 auto;
-}
-p, h3{
+
+footer p, h3{
     text-align: center;
+}
+main p {
+    width: 50%;
+    margin: 50px auto;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 40px;
+    background-color: lightblue;
+    border: 5px solid tan;
+    color: black;
+    border-radius: 30px;
+    box-sizing: border-box;
 }
 #sub_title{
     color: red;
