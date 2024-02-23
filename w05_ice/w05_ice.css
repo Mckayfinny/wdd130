@@ -1,0 +1,16 @@
+ #image-one {
+    width: 100%;
+    margin: 0 auto;
+
+ }
+ 
+ .circle-image img {
+    border: 20px solid darkgray;
+    text-align: center;
+    border-radius: 50%;
+    width: 300px;
+
+}
+body {
+    background-color: gray;
+}

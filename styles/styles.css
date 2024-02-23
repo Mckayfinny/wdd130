@@ -18,12 +18,21 @@ nav {
 main {
     background-color: white;
     padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 img {
     width: 50%;
     display: block;
     margin: 0 auto;
     border-radius: 50%;
+    box-shadow: 10px 10px 15px black;
+    transition: transform .5s;
+    grid-row: 2/5;
+}
+img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 
 a{
@@ -36,7 +45,8 @@ nav a:hover {
 #main_title{
     font-size: 4em;
     text-align: center;
-    font-family: Sixtyfour, sans-serif, Helvetica; 
+    font-family: Sixtyfour, sans-serif, Helvetica;
+    grid-column: 1/2; 
 }
 
 footer p, h3{
@@ -61,3 +71,10 @@ main p {
 footer{
     padding: 30px;
 }
+    @media screen and (max-width: 900px) {
+      main {
+        display: block;
+      } 
+    }
+
+   
