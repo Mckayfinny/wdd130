@@ -242,8 +242,24 @@ footer .social img {
 /*rivers css */
 
 .rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.circle-river {
+    border-radius: 50%;
+    width: 70%;
+    margin: auto 0;
+}
+.river-one-picture {
+    grid-column: 2/3
     
 }
+.general-rivers {
+    grid-column: 2/3;
+    grid-row: 2/3; 
+}
+
 
 /*contact us css */
 .contact h1 {
