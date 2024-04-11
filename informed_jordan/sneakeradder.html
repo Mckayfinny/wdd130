@@ -14,18 +14,19 @@
                 </a>
                 <nav>
                     <a href = "index.html">Home</a>
-                    <a href = "#">Jordan Silhouettes</a>
+                    <a href = "jordansilhouettes.html">Jordan Silhouettes</a>
                     <a href = "sneakeradder.html">Sneaker Adder</a>
                 </nav>
             </header>
     </div>
             <main class="contact">
                 <div id="feedback"></div>
-                <h1>Contact Us Here</h1>
+                <h1>Sneaker Adder</h1>
+                <p>Do you have a favorite Jordan or Nike shoe that you don't see on this website? Add it here! We can answer questions you have about any sneaker!</p>
                 <form action="/my-handling-form-page" method="post">
                     <ul>
                       <li>
-                        <label for="name">Name:</label>
+                        <label for="name">Name of Sneaker:</label>
                         <input type="text" id="name" name="user_name" />
                       </li>
                       <li>
@@ -33,10 +34,10 @@
                         <input type="email" required id="mail" name="user_email" placeholder="Your email.@here.com" />
                       </li>
                       <li>
-                        <label for="msg">Message:</label>
+                        <label for="msg">Questions about sneaker:</label>
                         <textarea id="msg" name="user_message"></textarea>
                       <li class="button">
-                            <button type="submit">Send your message</button>
+                            <button type="submit">Send your Sneaker</button>
                       </li>
                       </li>
                     </ul>
@@ -44,9 +45,9 @@
                 
             </main>
             <footer>
-                <p>Dry Oar &copy; 20XX - Amitai Finlayson</p>
-                <p><a href="site-plan-rafting.html" target="_blank">Site Plan</a></p>
-                <p><a href="contactus.html">Contact Us</a></p>
+                <p>Flight Club Archives &copy;</p>
+                <p><a href="jordansilhouettes.html" target ="_blank">Jordan Silhouettes</a></p>
+                <p><a href="sneakeradder.html">Sneaker Adder</a></p>
                 <div class="social">
                     <a href="https://facebook.com" target="_blank">
                         <img src="images/facebook.png" alt="fb icon">
@@ -70,7 +71,7 @@
                 // stop the form from doing the default action.
                 e.preventDefault();
                 // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-                feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                feedbackElement.innerHTML = 'Thank you for adding a sneaker. We will add the sneaker soon!';
                 // make the feedback element visible.
                 feedbackElement.style.display = "block";
                 // add a class to move everything down so our message doesn't cover it.

@@ -32,6 +32,13 @@ nav a:hover {
     margin-top: 10px;
 }
 
+#jump {
+    color: #a34847;
+    font-size: 1.5em;
+    grid-column: 10/5;
+    padding-left: 50px;
+}
+
 .book:hover, .join:hover {
     background-color:white;
     color: #a34847;
@@ -253,6 +260,10 @@ footer .social img {
     margin: 60px;
     padding-top: 30px;
 }
+.contact p {
+    text-align: center;
+    font-size: 1.3em;
+}
 
 form {
     /* Center the form on the page */
@@ -323,6 +334,7 @@ form {
     padding: 10px;
     font-size: 1.2em;
     border-radius: 30px;
+    color: #a34847;
   }
   button:hover {
     color: #080808;
