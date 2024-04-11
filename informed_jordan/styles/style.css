@@ -81,25 +81,25 @@ nav a {
     padding-top: 10px;
 }
 
-.rivers-card, .camping-card, .rapids-card {
+.jordan1-card, .jordan4-card, .jordan11-card {
     margin: 200px 0;
     
 }
 
-.rivers-card {
+.jordan1-card {
     grid-column: 5/7;
     grid-row: 2/3;
     background-color: #eceada;
 }
 
-.camping-card {
+.jordan4-card {
     grid-column: 2/4;
     grid-row: 2/3;
     padding-top: 100px;
     background-color: #eceada;
 }
 
-.rapids-card {
+.jordan11-card {
     grid-column: 8/10;
     grid-row: 2/3;
     padding-top: 100px;
@@ -111,11 +111,6 @@ nav a {
     grid-row: 4/9;
 }
 
-.mountains {
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
-}
 
 .msg {
     grid-column: 6/10;
@@ -123,7 +118,7 @@ nav a {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.card-img, .mountains {
+.card-img {
     border: 10px solid #080808;
     width: 100%;
 }
