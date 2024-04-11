@@ -245,20 +245,59 @@ footer .social img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+}
+.main-title {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-self: center;
+}
+.circle1-p {
+    grid-column: 1/1;
+    grid-row: 1/3;
+    padding: 50px 50px 75px 100px;
 }
 .circle-river {
     border-radius: 50%;
-    width: 70%;
-    margin: auto 0;
-}
-.river-one-picture {
-    grid-column: 2/3
-    
-}
-.general-rivers {
+    width: 50%;
+    padding-left: 200px;
     grid-column: 2/3;
-    grid-row: 2/3; 
+    grid-row: 1/3;
 }
+.title1 {
+    grid-column: 1/3;
+}
+.river-1-picture {
+    grid-column: 1/2;
+    width: 100%;
+    height: 500px;
+}
+.river1-p {
+    grid-column: 2/2;
+    width: 100%;
+    height: 100px;
+}
+.title2 {
+    grid-column: 1/3;
+}
+.river-2-picture {
+    width: 100%;
+    height: 500px;
+}
+.river2-p {
+
+}
+.title3 {
+
+}
+.river-3-picture {
+    width: 100%;
+    height: 500px;
+}
+.river3-p {
+
+}
+
 
 
 /*contact us css */
