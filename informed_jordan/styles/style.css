@@ -333,7 +333,7 @@ form {
   }
   button:hover {
     color: #080808;
-    box-shadow: 10px;
+    box-shadow: 5px 10px;
   }
   
   #feedback {
