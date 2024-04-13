@@ -30,6 +30,7 @@ nav a:hover {
     font-family: "Patua One", Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    text-shadow:  2px 2px #a34847;
 }
 
 #jump {
